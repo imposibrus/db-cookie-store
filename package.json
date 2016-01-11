@@ -1,6 +1,6 @@
 {
   "name": "db-cookie-store",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Store cookies in database",
   "main": "lib/store.js",
   "repository":  {
@@ -38,9 +38,10 @@
   },
   "dependencies": {
     "tough-cookie" : "~2.0.0",
-    "punycode" : "~1.2.3",
-    "sequelize" : "~2.0.0",
-    "sqlite3" : "~3.0.0"
+    "punycode" : "~1.2.3"
+  },
+  "peerDependencies": {
+    "sequelize": "*"
   },
   "author": "Dmitry Nizovtsev (https://github.com/JSBizon)",
   "license": "MIT",

@@ -16,7 +16,7 @@ var jar = new CookieJar(new DBCookieStore(db_name, db_user, db_password, db_opti
 
 If you have npm installed, you can simply type:
 
-          npm install db-cookie-store
+          npm install db-cookie-store sequelize
 
 Or you can clone this repository using the git command:
 
